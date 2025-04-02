@@ -1,0 +1,28 @@
+Blog Project Plan
+
+1. Overview
+This project is a simple blog system that allows users to create, view, edit, and delete blog posts. Posts are stored in local storage.
+
+2. File Structure
+- index.html - Lists all blog posts.
+- new-post.html - Provides a form to create a new blog post.
+- post.html - Displays details of a selected blog post.
+- styles.css - Contains styling for the website.
+- script.js - Contains JavaScript functionality for handling blog posts.
+
+3. Features
+Homepage (index.html)
+  - Displays a list of all blog posts.
+  - Each post links to post.html?id=<post_id>.
+  - A button to create a new post.
+
+Create Post (new-post.html)
+  - A form to enter the post title, content, and an optional image.
+  - Validation to ensure title and content are not empty.
+  - Saves the post data to local storage.
+
+Post Details (post.html)
+  - Loads post data based on ID in the URL.
+  - Displays the post title, content, and image.
+  - Provides an Edit button to modify the post.
+  - Provides a Delete button to remove the post.
